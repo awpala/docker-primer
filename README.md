@@ -60,11 +60,11 @@ With respect to Docker itself, there are a few core **primitives** involved, sum
 Diagrammatically, the relationship between these primitives is as follows:
 
 <center>
-<img src="./assets/002-docker-primitives.png" width="500">
+<img src="./assets/002-docker-primitives.png" width="550">
 </center>
 
 As depicted here:
-  * The ***Docker Container*** is a running process, which is isolated from the ***Host System*** and specified from its originating ***Docker Image***. 
+  * The ***Docker Container*** is a running process, which is isolated from the ***Host System*** and is specified from its originating ***Docker Image***. 
   * Furthermore, the Docker Image itself need not be present locally, but rather can also be hosted in a cloud-based ***registry*** (e.g., ***Docker Hub***) for subsequent retrieval/usage.
   * Additionally, the container can be specified/configured in such a manner by which "***remote***" ***interaction*** from the host is readily available/possible (i.e., via VS Code or equivalent), including common/mutual sharing of files via mounted ***Docker Volumes***.
 
