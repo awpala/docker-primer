@@ -55,6 +55,7 @@ With respect to Docker itself, there are a few core **primitives** involved, sum
 
 > [!NOTE]
 > Regardless of the host system (i.e., macOS, Windows, or Linux), the Docker Engine itself is ***Linux-based***.
+>
 > In the case of a ***Windows*** host, the corresponding Linux-based virtualization is provided by [WSL](https://aka.ms/wsl) (Windows Subsystem for Linux). Prior to introduction of WSL, Docker on Windows was virtualized using Hyper-V (which is still [supported](https://docs.docker.com/desktop/install/windows-install/), but WSL is generally recommended).
 
 Diagrammatically, the relationship between these primitives is as follows:
