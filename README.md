@@ -36,6 +36,7 @@ With a VM, the entire toolchain (***including*** the [guest] operating system) i
 
 > [!WARNING]
 > It's ***not*** necessarily accurate to say that there is a relative efficiency/inefficiency between a VM vs. a Docker container per se. While in general Docker containers are intended to be relatively lightweight by design, nevertheless a VM can be packaged efficiently, a Docker container can be specified and/or implemented inefficiently, etc.
+>
 > In either case, both VMs and containers will generally add net overhead relative to running "on bare metal" (i.e., directly on the hardware, without a virtualization layer in between), with the optimization goal being to minimize this overhead accordingly.
 
 ### Docker Primitives
